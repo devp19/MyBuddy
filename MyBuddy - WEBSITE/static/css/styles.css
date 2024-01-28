@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+:root {
+--font-family-base: 'SF Pro Display';
+}
+
+@font-face {
+font-family: 'Goku';
+src: url('fonts/Goku-Regular.woff2') format('woff2'),
+    url('fonts/Goku-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+
+.background-geo {
+background-image: url('images/abstract2.png');
+background-attachment: fixed;
+background-size: cover;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+}
+
+.nav-link {
+font-family: 'Zuume';
+font-style: oblique;
+font-size: 23px;
+color: whitesmoke;
+}
+
+.nav-link:hover {
+color: #fbae78;
+font-family: 'Zuume';
+}
+
+.glass-navbar {
+background: rgba(46, 46, 46, 0.3);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(8.3px);
+-webkit-backdrop-filter: blur(8.3px);
+}
+
+#landing-name {
+    margin-top: 120px;
+    font-family: 'Goku';
+    font-style: oblique;
+    color: whitesmoke;
+    font-size: 130px;
+    line-height: 130px;
+    cursor: default;
+  }
+
+  @media (max-width: 768px) {
+    #landing-name {
+      font-size: 100px; 
+    }
+  }
+  
+  #description {
+    font-family: SF Pro Display;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: default;
+  }
+  
+  #below-text {
+    color: whitesmoke;
+  }
+  
+  #main-line {
+    width: 100px;
+    height: 5px; 
+    background-color: #fbae78; 
+    margin-bottom: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+  }
+  
+  #main-line:hover {
+    width: 300px;
+  }
+  
+  #arrow-down {
+    margin-top: -20px;
+    color: #fbae78;
+    font-size: 70px;
+    text-decoration: none;
+    transition: 0.5s;
+    display: flex;
+  }
+  
+  #arrow-down:hover {
+    transform: translateY(50px);
+    color: whitesmoke;
+  }
+  
+  #test-2 {
+    height: 500px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background: rgba(46, 46, 46, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    transition: 1s;
+    transform: scalex(-1);
+  }
+  
+  #main-image {
+    height: 700px;
+    transition: 0.5s;
+    padding: none;
+  }
+  
+  #main-image:hover {
+    transform: scale(110%);
+    padding: none;
+  }
+  
+  #test-2:hover {
+    transform: scale(90%);
+  }
+
+  
+#landing-project {
+  color: white;
+  font-size: 80px;
+  font-family: Goku;
+  font-style: oblique;
+  margin-top: 30px;
+  cursor: default;
+  padding-bottom: 0px;
+}
+
+#projects-line {
+  width: 100px;
+  height: 5px; 
+  background-color: #fbae78; 
+  transition: 0.5s;
+  margin-top: 0px;
+}
+
+#projects-line:hover {
+  width: 300px;
+}
+
+/* EVERYTHING HERE IS WHAT SHOULD BE MADE FOR EVERY NEW ENTRY READ FROM FILE */
+
+.first-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: Goku;
+  font-style: oblique;
+  color: whitesmoke;
+  font-size: 60px;
+  line-height: 130px;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+
+.first-number:hover {
+  color: #fbae78;
+  transform: scale(120%);
+}
+
+#first-box {
+  height: 450px;
+  background: rgba(46, 46, 46, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  transition: 1s;
+  overflow: hidden;
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  #first-box {
+    height: 750px; 
+  }
+}
+
+
+#first-title{
+  font-size: 30px;
+  font-family: Goku;
+  color: whitesmoke;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: default;
+}
+
+#first-line {
+  width: 50px;
+  height: 5px; 
+  background-color: #fbae78; 
+  transition: 0.5s;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+#first-line:hover {
+  width: 100px;
+}
+
+#user-entry-first{
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 14px;
+  cursor: default;
+}
+
+#gpt-title{
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: Goku;
+  color: whitesmoke;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: default;
+}
+
+#gpt-title-line {
+  width: 50px;
+  height: 5px; 
+  background-color: #fbae78; 
+  transition: 0.5s;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+#gpt-title-line:hover {
+  width: 100px;
+}
+
+
+#gpt-entry-first{
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 14px;
+  cursor: default;
+}
+
+#support-box {
+  height: 550px;
+  background: rgba(46, 46, 46, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  transition: 1s;
+  overflow: hidden;
+  cursor: default;
+}
+
+
+@media (max-width: 768px) {
+  #support-box {
+    height: 1200px; 
+  }
+}
+
+#art{
+  color: white;
+  font-family: Goku;
+  background: #fbae78;
+  height: 30px;
+  width: 102px;
+  text-decoration: none;
+  border-radius: 0.3cqmax;
+  border-color: black;
+  border: 20px;
+  margin-top: 8px;
+  transition: 0.5s;
+  font-style: oblique;
+  
+}
+
+#art:hover{
+  background: none;
+  border: 20px;
+  border-color: black;
+}
+
+#settingsimg {
+  height: 150%;
+  width: 2200px;
+}

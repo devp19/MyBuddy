@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBuddy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xBb6Q3I5CrDe3eBASWlXp9T1Bp6KsNS5CZgBZ/vu7czu7hPHVbK2S02I1gOV7nD9LQd1eZ+LVDLPM1rLf87IUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="/assets/Font-Style/Goku-Regular.woff" as="font" type="font/woff2" crossorigin>
+
+
+    <link href="https://fonts.cdnfonts.com/css/zuume" rel="stylesheet" />
+
+
+</head>
+<body class="background-geo">
+    
+
+    <nav
+      class="navbar glass-navbar navbar-expand-lg"
+      data-bs-theme="dark"
+      style="position: fixed; width: 100%; top: 0; z-index: 1000"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          style="font-size: 20px; font-family: Zuume; font-style: italic"
+          href="{{ url_for('index') }}"
+        >
+          MyBuddy
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-4">
+              <a class="nav-link" aria-current="page" href="{{ url_for('index') }}">HOME</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="{{ url_for('journal') }}">Journal</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="{{ url_for('support') }}">SUPPORT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main>
+        <div class="container">
+          <div class="row pt-4">
+            <div class="col-md-5 pt-5">
+              <div id="landing-name">MY BUDDY</div>
+              <div id="main-line"></div>
+              <div id="description">
+                Hi! I am your personal mental health buddy, talk to me! I'll automatically journal our conversations for you to track your progression!
+              </div>
+              <a href="#about-me" id="arrow-down">⌄</a>
+            </div>
+  
+            <div id="test-2" class="col-md-5 ms-auto">
+              <img
+                id="settingsimg"
+                class="img-fluid ms-auto"
+                src="static/css/images/dog.png"
+                alt=""
+              />
+            </div>
+
+
+          </div>
+        </div>
+    
+</body>
+</html>
+
+
+

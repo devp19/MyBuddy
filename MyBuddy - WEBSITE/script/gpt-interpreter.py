@@ -6,7 +6,7 @@ from datetime import date
 
 
 client = OpenAI(
-        api_key="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"
+        api_key="API KEY GOES HERE"
     )
 
 # Initializes the recognizer

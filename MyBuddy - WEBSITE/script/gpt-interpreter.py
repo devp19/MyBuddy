@@ -62,12 +62,6 @@ def gpt_interpretor(text, client):
       ]
     )
 
-    # writes contents of chat-gpt answers into a file
-    # fh = open("script/Response.txt", "w")
-    # fh.write(response.choices[0].message.content)
-    # print(response.choices[0].message.content)
-        
-    # fh.close()
     
     
     fh = open("script/output.txt", "a")

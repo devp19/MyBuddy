@@ -10,8 +10,8 @@ def index():
 
 @app.route('/journal')
 def journal():
-    
-    file_path = os.path.join(app.root_path, '/Users/devpatel/Desktop/MyBuddy - WEBSITE/script/output.txt')
+    # Change the path of the output.txt file to where it is on your system. 
+    file_path = os.path.join(app.root_path, '/Users/devpatel/Desktop/MyBuddy/script/output.txt')
     with open(file_path, 'r', encoding='utf-8') as file:
         user_entry_content = file.read().replace('\n', '<br>')
 
@@ -23,7 +23,7 @@ def support():
 
 @app.route('/run_script', methods=['POST'])
 def run_script():
-    # Replace 'your_script.py' with the actual name of your Python script
+    # Change the path of the gpt-interpreter file to where it is on your system. 
     subprocess.run(['python', 'script/gpt-interpreter.py'])
     return 'Script executed successfully!'
 

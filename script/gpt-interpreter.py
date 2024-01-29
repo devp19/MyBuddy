@@ -1,12 +1,10 @@
 import speech_recognition as sr
-import pyttsx3
 from openai import OpenAI
-from datetime import date
 
 
 
 client = OpenAI(
-        api_key="API KEY GOES HERE"
+        api_key="API_KEY_GOES_HERE"
     )
 
 # Initializes the recognizer
@@ -61,8 +59,6 @@ def gpt_interpretor(text, client):
 
       ]
     )
-
-    
     
     fh = open("script/output.txt", "a")
     fh.write("MyBuddy: "+response.choices[0].message.content)

@@ -1,3 +1,6 @@
+![Screenshot 2024-01-28 at 3 57 34 PM](https://github.com/devp19/MyBuddy/assets/146687531/b1d8f92d-bf05-4fca-9805-cf702c7e2ad5)
+
+
 ## Aspirations
 To provide a comforting mental-health aid to those who are unable to journal and talk to others about their issues. Many people tend to struggle with talking to other people and our goal was to overcome this problem through the use of a generative model that documents your journey to a healthier lifestyle. 
 

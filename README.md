@@ -1,4 +1,5 @@
 ![Screenshot 2024-01-28 at 3 57 34 PM](https://github.com/devp19/MyBuddy/assets/146687531/b1d8f92d-bf05-4fca-9805-cf702c7e2ad5)
+<img width="1468" alt="Screenshot 2024-01-29 at 7 18 59 PM" src="https://github.com/devp19/MyBuddy/assets/146687531/4d1c89c5-33f7-4373-8983-d97eddefedd3">
 
 
 ## Aspirations

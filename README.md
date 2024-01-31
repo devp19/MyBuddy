@@ -29,8 +29,8 @@ Throughout this hackathon, we learned the skills of working in a team, communica
 For MyBuddy, we aim to convert it into a FullStack application and store the journal-entires in a database! In addition, we'd like for it to have daily check-in reminders, all while using these conversations to train a machine-learning model on human habits and mindset progressions when directed to the right path!
 
 ## Team
-Dev Patel
-Darsh Kansara
-Krish Munshi
-Dhruvil Patel
+Dev Patel,
+Darsh Kansara,
+Krish Munshi,
+Dhruvil Patel,
 Jay Patel

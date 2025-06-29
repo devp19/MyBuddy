@@ -12,7 +12,7 @@ r = sr.Recognizer()
 
 def record_test():
 
-    # Use this loop in case of errors
+    # Use this loop in case of errors.
     while(1):
         try:
             # Use microphone as source for input
